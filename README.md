@@ -4,15 +4,15 @@ A lightweight skill for placing persistent project information in repository rec
 
 ## When to use
 
-Use when writing, updating, or reviewing repository documentation, pull request descriptions, or pull request comments.
+Use when writing, updating, or reviewing repository documentation, pull request descriptions, or pull request comments, including material about CI test results and check status.
 
 ## Core idea
 
-Keep accepted requirements, design, plans, and project obligations in their established canonical repository documents. Keep prerequisite PR links, merge waits, review status, and other PR-specific coordination in the affected PR's body. Use comments for progress and coordination history.
+Keep accepted requirements, design, plans, verification obligations, and reproducible work evidence in established canonical repository documents. Keep CI execution state, pass/fail conclusions, and logs in their CI check records. Keep prerequisite PR links, merge waits, review status, and other PR-specific coordination in the affected PR's body, linking relevant CI checks. Use comments for progress and coordination history.
 
-This keeps repository documents focused on the state of the project while PRs carry the transient state of integrating their changes.
+This keeps repository documents focused on durable project facts while CI runs carry execution outcomes and PRs carry the transient state of integrating changes.
 
-Existing requirements, design, planning, review, branching, and merge workflows own the underlying decisions; this skill owns the placement of their records.
+CI execution owns check results; existing requirements, design, planning, review, branching, and merge workflows own the underlying decisions. This skill owns the placement of their records.
 
 ## Installation
 
