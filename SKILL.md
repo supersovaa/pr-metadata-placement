@@ -33,6 +33,6 @@ For example, an implementation handoff obligation recorded by a design workflow 
 
 ## Responsibility boundary
 
-This skill determines where information is recorded. CI execution owns run results and logs; the existing requirements, design, planning, review, branching, and merge workflows determine the underlying obligations and acceptance conditions.
+This skill determines where information is recorded. CI run records retain results and logs; the existing requirements, design, planning, review, branching, and merge workflows determine the underlying obligations and acceptance conditions.
 
 This skill targets repositories maintained by a single user working with an AI agent.
