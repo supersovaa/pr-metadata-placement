@@ -12,7 +12,7 @@ Keep accepted requirements, design, plans, verification obligations, and reprodu
 
 This keeps repository documents focused on durable project facts while CI runs carry execution outcomes and PRs carry the transient state of integrating changes.
 
-CI execution owns check results; existing requirements, design, planning, review, branching, and merge workflows own the underlying decisions. This skill owns the placement of their records.
+CI run records retain check results; existing requirements, design, planning, review, branching, and merge workflows own the underlying decisions. This skill owns the placement of their records.
 
 ## Installation
 
