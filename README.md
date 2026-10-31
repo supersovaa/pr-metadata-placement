@@ -1,6 +1,6 @@
 # pr-metadata-placement
 
-A lightweight skill for placing persistent project information in repository records and PR-specific coordination in pull request metadata. Designed for a single-user AI-agent repository workflow.
+A lightweight skill for placing lasting project information in repository records, PR coordination in pull request metadata, and CI outcomes in CI run records. Designed for a single-user AI-agent repository workflow.
 
 ## When to use
 
