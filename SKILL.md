@@ -1,11 +1,11 @@
 ---
 name: pr-metadata-placement
-description: When writing, updating, or reviewing repository docs, PR descriptions, or PR comments, distinguish lasting project records, PR coordination, and CI run results.
+description: Use when writing or reviewing repository documentation, PR descriptions, or PR comments, including updates about CI.
 ---
 
 # PR Metadata Placement
 
-Use this skill when writing, updating, or reviewing repository documentation, pull request descriptions, or pull request comments, including text about CI test results and check status.
+For each statement being written or reviewed, choose its record by what it describes: a durable project fact or obligation, coordination for one PR, or the status and results of a CI run.
 
 ## Core rule
 
