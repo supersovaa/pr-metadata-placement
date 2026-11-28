@@ -1,17 +1,15 @@
 ---
 name: pr-metadata-placement
-description: Place lasting project information in repository records, PR-specific coordination in pull request metadata, and CI check outcomes in CI run records. Use when writing, updating, or reviewing repository documentation, pull request descriptions, or pull request comments.
+description: Use when writing or reviewing repository documentation, PR descriptions, or PR comments, including updates about CI.
 ---
 
 # PR Metadata Placement
 
-Use this skill when writing, updating, or reviewing repository documentation, pull request descriptions, or pull request comments, including text about CI test results and check status.
+For each statement being written or reviewed, choose its record by what it describes: a durable project fact or obligation, coordination for one PR, or the status and results of a CI run.
 
 ## Core rule
 
-Keep information that defines the project or its outstanding obligations in the established repository canon. Keep information about a particular pull request's coordination and lifecycle in that pull request. Keep the execution state and conclusions of CI checks in their owning CI run records.
-
-Choose the record according to the information's responsibility:
+Choose the authoritative record by what the information describes:
 
 - **Repository canon:** accepted requirements and design, implementation and test plans, durable task-to-task dependencies, required verification and reproducible work evidence, standing workflow rules (including CI acceptance criteria), and project work tracked by an established handoff process.
 - **CI runs and checks:** execution status, individual job conclusions, diagnostic logs, and rerun outcomes for the checked commit.
